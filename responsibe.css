@@ -1,0 +1,48 @@
+.mobileNav{
+   display: none;
+ }
+ 
+@media only screen and (max-width: 688px) {
+ .banner{
+    flex-direction: column;
+ }
+
+.dextopNav{
+   display: none;
+}
+.mobileNav{
+   display: block;
+}
+.habit-container{
+   grid-template-columns:repeat(1,1fr);
+   text-align: center;
+}
+.running-man{
+   flex-direction: column;
+   margin-top: 50px;
+   gap: 0px;
+}
+.common {
+   height:54px ;
+   width: 287px;
+   font-size: 18px;
+}
+.classes-container{
+   grid-template-columns: repeat(1, 1fr);
+}
+
+.bmi-section {
+   flex-direction: column;
+   width: 100%;
+   height: 772px;
+   justify-content: space-around;
+}
+.our-team {
+   flex-direction: column;
+}
+.our-team2{
+   display: none;
+}
+
+ }
+ 
