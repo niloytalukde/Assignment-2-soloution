@@ -142,11 +142,12 @@ color: rgba(255, 255, 255, 0.5) ;
 }
 .contaner{
     margin-top:97px ;
+    gap: 90px;
   
 }
 img{
     width: 100%;
-     position: relative; 
+ 
     
 }
  .tutorial{
@@ -264,4 +265,158 @@ img{
     }
     /* Popular Classes section end  */
     
+/* table section start  */
+.headin-bmi{
+  color: white;
+  font-size:48px ;
+  font-weight: 900;
+}
+.bmi-description{
+  color:  rgba(255, 255, 255, 0.5) ;
+  font-size: 18px;
+}
+
+.bmi-heading {
+  margin-bottom: 88px;
+ text-align: center;
   
+}
+
+.BMI-Calculator{
+background-color:rgba(34, 34, 34, 1) ;
+height: 490px;
+align-self: center;
+justify-content: center;
+}
+.bmi-section{
+  justify-content: space-evenly;
+  margin-left: 190px;
+  margin-right: 190px;
+  padding-top: 50px;
+ 
+
+}
+
+.table-heading{
+  color:white;
+  font-size: 28px;
+  font-weight: 900;
+}
+.table-description{
+  color:white;
+  font-size: 18px;
+  line-height:24px;
+  padding-bottom: 20px;
+  color:rgba(255, 255, 255, 0.5) ;
+}
+input{
+  width:282px ;
+  gap: 12px;
+  margin-bottom: 12px;
+  padding: 12px 40px 12px 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  
+}
+#gender{
+  width:350px ;
+  margin-bottom: 12px;
+  padding: 12px 40px 12px 20px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 16px;
+  color:rgba(255, 255, 255, 0.6);
+}
+
+#activity{
+width: 700px;
+padding: 12px 40px 12px 20px;
+border-radius: 8px;
+border: none;
+background-color: rgba(255, 255, 255, 0.1);
+color:rgba(255, 255, 255, 0.6);
+}
+.box-heading{
+  color: white;
+}
+tr,th,td{
+  border: 1px solid white;
+  padding: 10px,10px;
+  
+}
+
+
+
+/* our team section  */
+
+.img-size{
+width:325px;
+height: 272px;
+border-radius: 10Px;
+margin-left: 10px;
+padding-top: 20px;
+padding-left: 10px;
+}
+
+.bg-color{
+  background-color: rgba(34, 34, 34, 1);
+  border-radius: 18px;
+
+}
+
+.position{
+  position: relative;
+top: -90px;
+  left: 25px;
+}
+.trainer-title{
+  color: white;
+  font-size: 16px;
+}
+.trainer-description{
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+}
+.team{
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+
+
+.main-footer{
+  
+  height:490px ;
+  justify-content: space-between;
+   padding-left: 190px;
+  padding-right: 190px; 
+  padding-top: 70px;
+  margin-top: 75px;
+
+}
+footer{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-title{
+  color: white;
+  font-size: 32px;
+}
+.footer-description{
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 23px;
+}
+.single-title{
+font-size:70px ;
+color: rgba(230, 83, 60, 1);
+}
+.footer-description-single{
+  color: rgba(255, 255, 255, 0.6);
+  font-size:14px;
+}
+.main-footer{
+border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+margin-bottom: 100px;
+}
